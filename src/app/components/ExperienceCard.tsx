@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ExperienceInterface } from "../constants/experience";
 import { projectData } from "../constants/projects";
-import RelatedProjectCard from "./RelatedProjectCard";
+import NameCard from "./NameCard";
 
 interface Props {
   data: ExperienceInterface;
@@ -28,10 +28,11 @@ export default function ExperienceCard({ data }: Props) {
           {projectData
             .filter((item) => data.relatedProjects.includes(item.id))
             .map((project, index) => (
-              <RelatedProjectCard
+              <NameCard
                 key={project.id}
-                data={project}
+                name={project.name}
                 index={index}
+                className="text-xl"
               />
             ))}
         </div>
