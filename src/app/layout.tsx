@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="max-w-screen-md mx-auto">
-          <main className="mb-20">{children}</main>
+          <main className="w-full mb-20">{children}</main>
 
           <BottomNavigation />
         </div>
