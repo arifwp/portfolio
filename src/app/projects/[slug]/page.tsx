@@ -26,14 +26,14 @@ export async function generateMetadata({
     title: data.name,
     description: data.description,
     icons: {
-      icon: data.banner ? data.banner : "/images/profile-about.png",
-      shortcut: data.banner ? data.banner : "/images/profile-about.png",
-      apple: data.banner ? data.banner : "/images/profile-about.png",
+      icon: "/images/profile-about.png",
+      shortcut: "/images/profile-about.png",
+      apple: "/images/profile-about.png",
     },
     openGraph: {
       title: data.name,
       description: data.description,
-      images: data.banner ? data.banner : "/images/profile-about.png",
+      images: "/images/profile-about.png",
     },
   };
 }
