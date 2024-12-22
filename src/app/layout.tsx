@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import BottomNavigation from "./components/BottomNavigation";
 import "./styles/globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Arif's Portfolio",
@@ -25,6 +26,8 @@ export default function RootLayout({
 
           <BottomNavigation />
         </div>
+
+        <SpeedInsights />
       </body>
     </html>
   );
