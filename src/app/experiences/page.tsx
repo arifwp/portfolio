@@ -1,7 +1,25 @@
+import { Metadata } from "next";
 import ExperienceCard from "../components/ExperienceCard";
 import SkillCircle from "../components/SkillCircle";
 import Title from "../components/Title";
 import { experienceData, skillData } from "../constants/experience";
+
+export const metadata: Metadata = {
+  title: "Experiences | Arif Wahyu Prasetyo",
+  description:
+    "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
+  icons: {
+    icon: "/images/profile-about.png",
+    shortcut: "/images/profile-about.png",
+    apple: "/images/profile-about.png",
+  },
+  openGraph: {
+    title: "Experiences | Arif Wahyu Prasetyo",
+    description:
+      "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
+    images: "/images/profile-about.png",
+  },
+};
 
 export default function ExperiencesPage() {
   return (

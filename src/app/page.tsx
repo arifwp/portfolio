@@ -3,6 +3,24 @@ import Link from "next/link";
 import profileHeader from "../../public/images/profile-about.png";
 import { timelineData } from "./constants/timeline";
 import TimelineCard from "./components/TimelineCard";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
+  description:
+    "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
+  icons: {
+    icon: "/images/profile-about.png", // Path to your logo in the `public` folder
+    shortcut: "/images/profile-about.png",
+    apple: "/images/profile-about.png",
+  },
+  openGraph: {
+    title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
+    description:
+      "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
+    images: "/images/profile-about.png",
+  },
+};
 
 export default function AboutPage() {
   return (

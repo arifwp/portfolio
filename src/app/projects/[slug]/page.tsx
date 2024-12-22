@@ -1,9 +1,42 @@
 import NameCard from "@/app/components/NameCard";
 import Title from "@/app/components/Title";
 import { projectData, ProjectInterface } from "@/app/constants/projects";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const { slug } = params;
+
+  const data = projectData.find((item) => item.slug === slug);
+
+  if (!data) {
+    return {
+      title: "Project Not Found",
+      description: "The project you are looking for does not exist.",
+    };
+  }
+
+  return {
+    title: data.name,
+    description: data.description,
+    icons: {
+      icon: data.banner ? data.banner : "/images/profile-about.png",
+      shortcut: data.banner ? data.banner : "/images/profile-about.png",
+      apple: data.banner ? data.banner : "/images/profile-about.png",
+    },
+    openGraph: {
+      title: data.name,
+      description: data.description,
+      images: data.banner ? data.banner : "/images/profile-about.png",
+    },
+  };
+}
 
 export default async function ProjectDetailPage({
   params,
@@ -29,8 +62,8 @@ export default async function ProjectDetailPage({
           className="w-full mt-6 rounded-neo"
           src={data.banner}
           alt={data.name}
-          width={400}
-          height={400}
+          width={100}
+          height={100}
         />
       )}
 
