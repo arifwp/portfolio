@@ -1,16 +1,20 @@
 import NameCard from "@/app/components/NameCard";
 import Title from "@/app/components/Title";
-import { projectData } from "@/app/constants/projects";
+import { projectData, ProjectInterface } from "@/app/constants/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-export default function ProjectDetailPage({
+export default async function ProjectDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const data = projectData.find((item) => item.slug === params.slug);
+  const { slug } = await params;
+
+  const data: ProjectInterface | undefined = projectData.find(
+    (item) => item.slug === slug
+  );
 
   if (!data) {
     notFound();
