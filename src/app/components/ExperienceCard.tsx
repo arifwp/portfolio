@@ -15,7 +15,8 @@ export default function ExperienceCard({ data }: Props) {
           className="aspect-square rounded-md object-contain overflow-hidden rounded-neo"
           src={data.companyLogo}
           alt={data.title}
-          layout="fill"
+          fill
+          sizes="(max-width: 768px) 60px, (max-width: 1024px) 60px, 60px"
         />
       </div>
 

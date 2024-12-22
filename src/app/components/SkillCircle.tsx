@@ -14,7 +14,7 @@ export default function SkillCircle({ data }: Props) {
             className="object-contain"
             src={data.logo}
             alt={data.name}
-            layout="fill"
+            fill
           />
         </div>
       </div>
