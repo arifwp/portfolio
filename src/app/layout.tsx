@@ -1,6 +1,7 @@
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import BottomNavigation from "./components/BottomNavigation";
 import "./styles/globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children,
@@ -16,6 +17,7 @@ export default function RootLayout({
           <BottomNavigation />
         </div>
 
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
