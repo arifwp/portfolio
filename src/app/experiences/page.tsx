@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description:
     "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-about.png",
-    shortcut: "https://arifwahyu.id/images/profile-about.png",
-    apple: "https://arifwahyu.id/images/profile-about.png",
+    icon: "https://arifwahyu.id/images/profile-about.webp",
+    shortcut: "https://arifwahyu.id/images/profile-about.webp",
+    apple: "https://arifwahyu.id/images/profile-about.webp",
   },
   openGraph: {
     title: "Experiences | Arif Wahyu Prasetyo",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-about.png",
+        url: "https://arifwahyu.id/images/profile-about.webp",
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",

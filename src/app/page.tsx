@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import profileHeader from "../../public/images/profile-about.png";
+import profileHeader from "../../public/images/profile-about.webp";
 import TimelineCard from "./components/TimelineCard";
 import { timelineData } from "./constants/timeline";
 
@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   description:
     "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-about.png",
-    shortcut: "https://arifwahyu.id/images/profile-about.png",
-    apple: "https://arifwahyu.id/images/profile-about.png",
+    icon: "https://arifwahyu.id/images/profile-about.webp",
+    shortcut: "https://arifwahyu.id/images/profile-about.webp",
+    apple: "https://arifwahyu.id/images/profile-about.webp",
   },
   openGraph: {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-about.png",
+        url: "https://arifwahyu.id/images/profile-about.webp",
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",

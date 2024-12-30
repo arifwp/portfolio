@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   description:
     "Discover the diverse projects by Arif Wahyu Prasetyo, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-about.png",
-    shortcut: "https://arifwahyu.id/images/profile-about.png",
-    apple: "https://arifwahyu.id/images/profile-about.png",
+    icon: "https://arifwahyu.id/images/profile-about.webp",
+    shortcut: "https://arifwahyu.id/images/profile-about.webp",
+    apple: "https://arifwahyu.id/images/profile-about.webp",
   },
   openGraph: {
     title: "Projects | Arif Wahyu Prasetyo",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Discover the diverse projects by Arif Wahyu Prasetyo, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-about.png", // URL lengkap gambar
+        url: "https://arifwahyu.id/images/profile-about.webp",
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",

@@ -19,7 +19,7 @@ export interface ProjectInterface {
 export const projectData: ProjectInterface[] = [
   {
     id: 0,
-    banner: "/images/banner-bisnislink.svg",
+    banner: "/images/banner-bisnislink.webp",
     name: "BisnisLink",
     date: "September 2024 - Present",
     linkToPage: "",
@@ -94,7 +94,7 @@ export const projectData: ProjectInterface[] = [
 
   {
     id: 1,
-    banner: "/images/banner-ketaonfair.svg",
+    banner: "/images/banner-ketaonfair.webp",
     name: "Ketaon Fair",
     date: "June 2023 - Present",
     linkToPage: "",
@@ -144,7 +144,7 @@ export const projectData: ProjectInterface[] = [
   },
   {
     id: 2,
-    banner: "/images/banner-kubuid.svg",
+    banner: "/images/banner-kubuid.webp",
     name: "Kubu.id",
     date: "June 2023 - Present",
     linkToPage: "",
@@ -234,7 +234,7 @@ export const projectData: ProjectInterface[] = [
   },
   {
     id: 3,
-    banner: "/images/banner-samakaki.svg",
+    banner: "/images/banner-samakaki.webp",
     name: "SAMAKAKI",
     date: "September 2022 - December 2022",
     linkToPage: "",

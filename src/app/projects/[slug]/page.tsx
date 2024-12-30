@@ -26,16 +26,16 @@ export async function generateMetadata({
     title: data.name,
     description: data.description,
     icons: {
-      icon: "https://arifwahyu.id/images/profile-about.png",
-      shortcut: "https://arifwahyu.id/images/profile-about.png",
-      apple: "https://arifwahyu.id/images/profile-about.png",
+      icon: "https://arifwahyu.id/images/profile-about.webp",
+      shortcut: "https://arifwahyu.id/images/profile-about.webp",
+      apple: "https://arifwahyu.id/images/profile-about.webp",
     },
     openGraph: {
       title: data.name,
       description: data.description,
       images: [
         {
-          url: "https://arifwahyu.id/images/profile-about.png",
+          url: "https://arifwahyu.id/images/profile-about.webp",
           width: 1200,
           height: 630,
           alt: "Profile of Arif Wahyu Prasetyo",
@@ -71,8 +71,8 @@ export default async function ProjectDetailPage({
           className="w-full mt-6 rounded-neo"
           src={data.banner}
           alt={data.name}
-          width={100}
-          height={100}
+          width={500}
+          height={500}
         />
       )}
 
