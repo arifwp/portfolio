@@ -26,16 +26,16 @@ export async function generateMetadata({
     title: data.name,
     description: data.description,
     icons: {
-      icon: "/images/profile-about.png",
-      shortcut: "/images/profile-about.png",
-      apple: "/images/profile-about.png",
+      icon: "https://arifwahyu.id/images/profile-about.png",
+      shortcut: "https://arifwahyu.id/images/profile-about.png",
+      apple: "https://arifwahyu.id/images/profile-about.png",
     },
     openGraph: {
       title: data.name,
       description: data.description,
       images: [
         {
-          url: "https://arifwahyu.id/images/profile-about.png", // URL lengkap gambar
+          url: "https://arifwahyu.id/images/profile-about.png",
           width: 1200,
           height: 630,
           alt: "Profile of Arif Wahyu Prasetyo",

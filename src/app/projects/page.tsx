@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   description:
     "Discover the diverse projects by Arif Wahyu Prasetyo, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
   icons: {
-    icon: "/images/profile-about.png",
-    shortcut: "/images/profile-about.png",
-    apple: "/images/profile-about.png",
+    icon: "https://arifwahyu.id/images/profile-about.png",
+    shortcut: "https://arifwahyu.id/images/profile-about.png",
+    apple: "https://arifwahyu.id/images/profile-about.png",
   },
   openGraph: {
     title: "Projects | Arif Wahyu Prasetyo",
