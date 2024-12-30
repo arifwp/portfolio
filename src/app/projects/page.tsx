@@ -16,7 +16,16 @@ export const metadata: Metadata = {
     title: "Projects | Arif Wahyu Prasetyo",
     description:
       "Discover the diverse projects by Arif Wahyu Prasetyo, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
-    images: "/images/profile-about.png",
+    images: [
+      {
+        url: "https://arifwahyu.id/images/profile-about.png", // URL lengkap gambar
+        width: 1200,
+        height: 630,
+        alt: "Profile of Arif Wahyu Prasetyo",
+      },
+    ],
+    type: "website",
+    url: "https://arifwahyu.id",
   },
 };
 

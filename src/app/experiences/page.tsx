@@ -17,7 +17,16 @@ export const metadata: Metadata = {
     title: "Experiences | Arif Wahyu Prasetyo",
     description:
       "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
-    images: "/images/profile-about.png",
+    images: [
+      {
+        url: "https://arifwahyu.id/images/profile-about.png", // URL lengkap gambar
+        width: 1200,
+        height: 630,
+        alt: "Profile of Arif Wahyu Prasetyo",
+      },
+    ],
+    type: "website",
+    url: "https://arifwahyu.id",
   },
 };
 

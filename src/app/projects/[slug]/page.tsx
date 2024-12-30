@@ -33,7 +33,16 @@ export async function generateMetadata({
     openGraph: {
       title: data.name,
       description: data.description,
-      images: "/images/profile-about.png",
+      images: [
+        {
+          url: "https://arifwahyu.id/images/profile-about.png", // URL lengkap gambar
+          width: 1200,
+          height: 630,
+          alt: "Profile of Arif Wahyu Prasetyo",
+        },
+      ],
+      type: "website",
+      url: "https://arifwahyu.id",
     },
   };
 }

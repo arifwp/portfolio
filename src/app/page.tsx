@@ -18,7 +18,16 @@ export const metadata: Metadata = {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
       "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
-    images: "/images/profile-about.png",
+    images: [
+      {
+        url: "https://arifwahyu.id/images/profile-about.png", // URL lengkap gambar
+        width: 1200,
+        height: 630,
+        alt: "Profile of Arif Wahyu Prasetyo",
+      },
+    ],
+    type: "website",
+    url: "https://arifwahyu.id",
   },
 };
 
