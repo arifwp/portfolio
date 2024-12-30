@@ -1,9 +1,9 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import profileHeader from "../../public/images/profile-about.png";
-import { timelineData } from "./constants/timeline";
 import TimelineCard from "./components/TimelineCard";
-import { Metadata } from "next";
+import { timelineData } from "./constants/timeline";
 
 export const metadata: Metadata = {
   title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
@@ -60,7 +60,15 @@ export default function AboutPage() {
           modern development practices.
         </p>
 
-        <button className="p-4 bg-hardYellow drop-shadow-neo font-medium">{`Let's Work Together`}</button>
+        <a
+          href="mailto:arif.wpras@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="w-full p-4 bg-hardYellow drop-shadow-neo font-medium">
+            {`Let's Work Together`}
+          </button>
+        </a>
 
         <div className="w-full flex flex-row gap-4 flex-wrap">
           <Link
@@ -112,7 +120,10 @@ export default function AboutPage() {
             GitHub
           </Link>
 
-          <button className="p-4 bg-white drop-shadow-neo flex flex-row flex-1 text-black font-medium">
+          <Link
+            href={"https://arifwahyu.id/resume"}
+            className="p-4 bg-white drop-shadow-neo flex flex-row flex-1 text-black font-medium"
+          >
             <svg
               className="w-6 h-6 text-black mr-2"
               aria-hidden="true"
@@ -131,7 +142,7 @@ export default function AboutPage() {
               />
             </svg>
             Resume
-          </button>
+          </Link>
         </div>
       </div>
 
