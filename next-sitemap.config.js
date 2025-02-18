@@ -1,4 +1,4 @@
-import { projectData } from "./app/constants/projects"; // Ensure the path is correct
+import { projectData } from ".src/app/constants/projects"; // Ensure the path is correct
 
 /** @type {import('next-sitemap').IConfig} */
 const config = {
