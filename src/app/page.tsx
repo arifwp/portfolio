@@ -51,13 +51,15 @@ export default function AboutPage() {
         </div>
 
         <p className="text-md">
-          Junior Fullstack Developer with 2 year of Android development
-          experience and 6 months in Fullstack projects. Creating and maintain
-          impactful Android apps with 14,000+ downloads on Google Play Store,
-          and improved system performance by reducing bugs by 30%. Skilled in
-          React.js, TypeScript, Chakra UI, and integrating web services. Eager
-          to grow and deliver innovative solutions while building expertise in
-          modern development practices.
+          Versatile developer with 2 years of combined experience in Android app
+          development and Fullstack web projects. Successfully developed and
+          deployed Android applications with 14,000+ downloads on Google Play
+          Store, showcasing strong problem-solving and optimization skills.
+          Proficient in modern technologies, including React.js, TypeScript,
+          Chakra UI, Tailwind CSS, Laravel, and web services integration.
+          Dedicated to delivering high-quality, scalable solutions and
+          continuously advancing expertise in modern development frameworks and
+          best practices.
         </p>
 
         <a
