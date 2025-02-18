@@ -25,7 +25,7 @@ export const projectData: ProjectInterface[] = [
     linkToPage: "",
     linkToProject: {
       id: 1,
-      name: "",
+      name: "https://bisnislink.id",
     },
     description:
       "BisnisLink is an online E-Commerce service that supports SMEs (Small and Medium Enterprises) to develop their businesses. In BisnisLink there are also free blogs/articles to help users to increase their insight and knowledge about entrepreneurship.",

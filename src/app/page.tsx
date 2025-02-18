@@ -55,11 +55,11 @@ export default function AboutPage() {
           development and Fullstack web projects. Successfully developed and
           deployed Android applications with 14,000+ downloads on Google Play
           Store, showcasing strong problem-solving and optimization skills.
-          Proficient in modern technologies, including React.js, TypeScript,
-          Chakra UI, Tailwind CSS, Laravel, and web services integration.
-          Dedicated to delivering high-quality, scalable solutions and
-          continuously advancing expertise in modern development frameworks and
-          best practices.
+          Proficient in modern technologies, including React.js, Next.js,
+          TypeScript, Chakra UI, Tailwind CSS, Laravel, and Node.js. Dedicated
+          to delivering high-quality, scalable solutions and continuously
+          advancing expertise in modern development frameworks and best
+          practices.
         </p>
 
         <a
