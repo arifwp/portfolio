@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://arifwahyu.id
+
+# Sitemaps
+Sitemap: https://arifwahyu.id/sitemap.xml

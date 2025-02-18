@@ -6,7 +6,7 @@ import { projectData } from "../constants/projects";
 export const metadata: Metadata = {
   title: "Projects | Arif Wahyu Prasetyo",
   description:
-    "Discover the diverse projects by Arif Wahyu Prasetyo, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
+    "Discover the diverse projects, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
   icons: {
     icon: "https://arifwahyu.id/images/profile-about.webp",
     shortcut: "https://arifwahyu.id/images/profile-about.webp",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Projects | Arif Wahyu Prasetyo",
     description:
-      "Discover the diverse projects by Arif Wahyu Prasetyo, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
+      "Discover the diverse projects, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
     images: [
       {
         url: "https://arifwahyu.id/images/profile-about.webp",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
-    url: "https://arifwahyu.id",
+    url: "https://arifwahyu.id/projects",
   },
 };
 

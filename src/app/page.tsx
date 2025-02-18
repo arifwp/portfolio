@@ -8,7 +8,7 @@ import { timelineData } from "./constants/timeline";
 export const metadata: Metadata = {
   title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
   description:
-    "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
+    "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
   icons: {
     icon: "https://arifwahyu.id/images/profile-about.webp",
     shortcut: "https://arifwahyu.id/images/profile-about.webp",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
-      "Junior Fullstack Developer with 2 year of Android development experience and 6 months in Fullstack projects",
+      "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
     images: [
       {
         url: "https://arifwahyu.id/images/profile-about.webp",

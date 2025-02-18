@@ -7,7 +7,7 @@ import { experienceData, skillData } from "../constants/experience";
 export const metadata: Metadata = {
   title: "Experiences | Arif Wahyu Prasetyo",
   description:
-    "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
+    "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover skills gained throughout my path as a Junior Fullstack Developer",
   icons: {
     icon: "https://arifwahyu.id/images/profile-about.webp",
     shortcut: "https://arifwahyu.id/images/profile-about.webp",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Experiences | Arif Wahyu Prasetyo",
     description:
-      "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover projects, achievements, and the skills gained throughout his path as a Fullstack Developer",
+      "Explore the professional journey and my career experiences. Discover skills gained throughout my path as a Junior Fullstack Developer",
     images: [
       {
         url: "https://arifwahyu.id/images/profile-about.webp",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
-    url: "https://arifwahyu.id",
+    url: "https://arifwahyu.id/experiences",
   },
 };
 

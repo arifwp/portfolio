@@ -42,7 +42,7 @@ export async function generateMetadata({
         },
       ],
       type: "website",
-      url: "https://arifwahyu.id",
+      url: `https://arifwahyu.id/projects/${data.slug}`,
     },
   };
 }
