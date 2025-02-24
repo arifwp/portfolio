@@ -23,7 +23,7 @@ export default function ExperienceCard({ data }: Props) {
       <div className="flex flex-col gap-2 md:gap-0">
         <p className="text-xs md:text-sm font-medium">{`${data.date} | ${data.location}`}</p>
 
-        <p className="text-lg font-semibold">{data.title}</p>
+        <h1 className="text-lg font-semibold">{data.title}</h1>
 
         <div className="w-full mt-2 gap-2 flex flex-row justify-center md:justify-start">
           {projectData

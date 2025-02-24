@@ -29,6 +29,13 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://arifwahyu.id",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
+    description:
+      "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
+    images: "https://arifwahyu.id/images/profile-about.webp",
+  },
 };
 
 export default function AboutPage() {

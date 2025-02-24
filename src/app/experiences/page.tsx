@@ -28,6 +28,13 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://arifwahyu.id/experiences",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Experiences | Arif Wahyu Prasetyo",
+    description:
+      "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover skills gained throughout my path as a Junior Fullstack Developer",
+    images: "https://arifwahyu.id/images/profile-about.webp",
+  },
 };
 
 export default function ExperiencesPage() {

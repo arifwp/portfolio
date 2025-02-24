@@ -44,6 +44,12 @@ export async function generateMetadata({
       type: "website",
       url: `https://arifwahyu.id/projects/${data.slug}`,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: data.name,
+      description: data.description,
+      images: data.banner,
+    },
   };
 }
 
@@ -78,6 +84,8 @@ export default async function ProjectDetailPage({
 
       <div className="w-full gap-1 mt-4 flex flex-col">
         <p className="text-lg font-bold">{`What's this?`}</p>
+
+        <h2 className="mt-4 text-lg font-semibold">{data.title}</h2>
 
         <p className="text-md">{data.description}</p>
       </div>

@@ -10,6 +10,7 @@ export interface ProjectInterface {
   date: string;
   linkToPage: string;
   linkToProject: BasicInterface;
+  title: string;
   description: string;
   slug: string;
   task: BasicInterface[];
@@ -27,8 +28,10 @@ export const projectData: ProjectInterface[] = [
       id: 1,
       name: "https://bisnislink.id",
     },
+    title:
+      "BisnisLink - Empowering SMEs (UMKM) with E-Commerce & Business Insights",
     description:
-      "BisnisLink is an online E-Commerce service that supports SMEs (Small and Medium Enterprises) to develop their businesses. In BisnisLink there are also free blogs/articles to help users to increase their insight and knowledge about entrepreneurship.",
+      "BisnisLink is an all-in-one E-Commerce platform designed to help Small and Medium Enterprises (UMKM) grow their businesses efficiently. With BisnisLink, entrepreneurs can easily showcase their products, reach a wider audience, and increase sales through a seamless digital marketplace. In addition to our E-Commerce services, BisnisLink provides free business articles and blogs, offering valuable insights on entrepreneurship, marketing strategies, and business development. Whether you’re starting a new venture or scaling your existing business, BisnisLink is your go-to platform for success.",
     slug: "bisnislink",
     task: [
       {
@@ -102,8 +105,9 @@ export const projectData: ProjectInterface[] = [
       id: 1,
       name: "https://ketaon-fair.vercel.app",
     },
+    title: "Ketaon Fair – Ultimate Guide to Ketaon Annual Festival",
     description:
-      "Ketaon Fair is an event website for my village's annual festival, built with React.js and Chakra UI. It features event details, and schedules, offering a modern, responsive, and user-friendly experience for attendees and organizers.",
+      "Ketaon Fair is the official event website for ketaon's annual festival, providing a seamless and modern experience for attendees and organizers. Built with React.js and Chakra UI, the platform offers a fully responsive design, ensuring easy access to event details, schedules, and important updates from any device. Whether you’re looking for festival highlights, performance schedules, or venue information, Ketaon Fair keeps you informed. People in this village can join celebrating culture, tradition, and community spirit at Ketaon Fair Event!",
     slug: "ketaon-fair",
     task: [
       {
@@ -152,8 +156,10 @@ export const projectData: ProjectInterface[] = [
       id: 2,
       name: "https://play.google.com/store/apps/details?id=com.kubu.id&pcampaignid=web_share",
     },
+    title:
+      "Kubu.id – The Ultimate Online Community for Informal & Casual Workers",
     description:
-      "Kubu.id is an application that is an online community center for workers and job seekers, especially informal/non-formal/casual workers. With a focus on employment-related information, consultation with professionals, and job search, Kubu.id gives you direct access to new opportunities. Find the best opportunities in the informal/non-formal/casual world of work by downloading the Kubu.id application now.",
+      "Kubu.id is a dedicated online platform designed to empower informal, non-formal, and casual workers by connecting them with new job opportunities, career insights, and professional consultations. Whether you’re a freelancer, daily wage worker, or part-time employee, Kubu.id provides direct access to employment-related information and expert advice to help you navigate your career journey. Take control of your career today! Download the Kubu.id app now and unlock new opportunities in the world of informal work.",
     slug: "kubu.id",
     task: [
       {
@@ -242,8 +248,9 @@ export const projectData: ProjectInterface[] = [
       id: 2,
       name: "https://play.google.com/store/apps/details?id=com.qatros.samakaki&hl=id",
     },
+    title: "SAMAKAKI – Connect, Share, and Build Your Family Tree",
     description:
-      "A family-friendly social media platform where users can post their activities or stories and users can create a family tree.",
+      "SamaKaki is a family-friendly social media platform where users can share their stories, activities, and special moments with loved ones. Designed for meaningful connections, SamaKaki also lets you create and explore your family tree, preserving your family’s legacy across generations.",
     slug: "qatros-samakaki",
     task: [
       {
@@ -324,8 +331,9 @@ export const projectData: ProjectInterface[] = [
       id: 2,
       name: "",
     },
+    title: "PriceApp – Smart Price Prediction for Better Selling Decisions",
     description:
-      "An application platform to predict the price of goods to be sold based on average selling price data in Indonesia.",
+      "PriceApp is an innovative platform that helps sellers predict the ideal price for their products based on real-time average selling price data in Indonesia. Whether you’re a business owner, reseller, or online merchant, PriceApp provides data-driven insights to help you set competitive prices and maximize profits.",
     slug: "bangkit-academy-price-app",
     task: [
       {

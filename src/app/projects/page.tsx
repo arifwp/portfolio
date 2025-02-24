@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://arifwahyu.id/projects",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projects | Arif Wahyu Prasetyo",
+    description:
+      "Discover the diverse projects, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
+    images: "https://arifwahyu.id/images/profile-about.webp",
+  },
 };
 
 export default function ProjectsPage() {
