@@ -14,6 +14,16 @@ export const metadata: Metadata = {
     shortcut: "https://arifwahyu.id/images/profile-about.webp",
     apple: "https://arifwahyu.id/images/profile-about.webp",
   },
+  keywords: [
+    "Arif",
+    "Arif Wahyu",
+    "Arif Wahyu Prasetyo",
+    "Email Arif",
+    "Website Arif Wahyu Prasetyo",
+    "Website Arif",
+    "Junior Fullstack Developer",
+    "Fullstack Developer",
+  ],
   openGraph: {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:

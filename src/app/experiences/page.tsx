@@ -7,16 +7,25 @@ import { experienceData, skillData } from "../constants/experience";
 export const metadata: Metadata = {
   title: "Experiences | Arif Wahyu Prasetyo",
   description:
-    "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover skills gained throughout my path as a Junior Fullstack Developer",
+    "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
   icons: {
     icon: "https://arifwahyu.id/images/profile-about.webp",
     shortcut: "https://arifwahyu.id/images/profile-about.webp",
     apple: "https://arifwahyu.id/images/profile-about.webp",
   },
+  keywords: [
+    "Pengalaman Arif Wahyu Prasetyo",
+    "Pengalaman Arif",
+    "Arif",
+    "Arif Wahyu",
+    "Arif Wahyu Prasetyo",
+    "Website Arif Wahyu Prasetyo",
+    "Website Arif",
+  ],
   openGraph: {
     title: "Experiences | Arif Wahyu Prasetyo",
     description:
-      "Explore the professional journey and my career experiences. Discover skills gained throughout my path as a Junior Fullstack Developer",
+      "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
     images: [
       {
         url: "https://arifwahyu.id/images/profile-about.webp",
@@ -32,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Experiences | Arif Wahyu Prasetyo",
     description:
-      "Explore the professional journey and career experiences of Arif Wahyu Prasetyo. Discover skills gained throughout my path as a Junior Fullstack Developer",
+      "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
     images: "https://arifwahyu.id/images/profile-about.webp",
   },
 };

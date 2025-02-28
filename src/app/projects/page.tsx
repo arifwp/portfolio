@@ -6,16 +6,27 @@ import { projectData } from "../constants/projects";
 export const metadata: Metadata = {
   title: "Projects | Arif Wahyu Prasetyo",
   description:
-    "Discover the diverse projects, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
+    "Explore a collection of innovative Fullstack and mobile projects by Arif Wahyu Prasetyo. Featuring web apps, mobile solutions, and software tools built with Next.js, React, TypeScript, Node.js, Laravel, and modern technologies.",
   icons: {
     icon: "https://arifwahyu.id/images/profile-about.webp",
     shortcut: "https://arifwahyu.id/images/profile-about.webp",
     apple: "https://arifwahyu.id/images/profile-about.webp",
   },
+  keywords: [
+    "Projects Arif",
+    "Projek Arif",
+    "Arif Projects",
+    "Proyek Arif",
+    "Arif",
+    "Arif Wahyu",
+    "Arif Wahyu Prasetyo",
+    "Website Arif Wahyu Prasetyo",
+    "Website Arif",
+  ],
   openGraph: {
     title: "Projects | Arif Wahyu Prasetyo",
     description:
-      "Discover the diverse projects, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
+      "Explore a collection of innovative Fullstack and mobile projects by Arif Wahyu Prasetyo. Featuring web apps, mobile solutions, and software tools built with Next.js, React, TypeScript, Node.js, Laravel, and modern technologies.",
     images: [
       {
         url: "https://arifwahyu.id/images/profile-about.webp",
@@ -31,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Projects | Arif Wahyu Prasetyo",
     description:
-      "Discover the diverse projects, showcasing creativity, technical expertise, and problem-solving skills as a Junior Fullstack Developer. Explore web applications, tools, and innovative solutions built with modern technologies",
+      "Explore a collection of innovative Fullstack and mobile projects by Arif Wahyu Prasetyo. Featuring web apps, mobile solutions, and software tools built with Next.js, React, TypeScript, Node.js, Laravel, and modern technologies.",
     images: "https://arifwahyu.id/images/profile-about.webp",
   },
 };

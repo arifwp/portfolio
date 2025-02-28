@@ -19,26 +19,32 @@ export async function generateMetadata({
     return {
       title: "Project Not Found",
       description: "The project you are looking for does not exist.",
+      robots: "noindex, nofollow",
     };
   }
 
   return {
-    title: data.name,
+    title: `${data.name} | Arif Wahyu Prasetyo`,
     description: data.description,
+    keywords: data.keywords ?? [
+      "Arif Wahyu Prasetyo",
+      "Software Engineer",
+      "Projects",
+    ],
     icons: {
       icon: "https://arifwahyu.id/images/profile-about.webp",
       shortcut: "https://arifwahyu.id/images/profile-about.webp",
       apple: "https://arifwahyu.id/images/profile-about.webp",
     },
     openGraph: {
-      title: data.name,
+      title: `${data.name} | Arif Wahyu Prasetyo`,
       description: data.description,
       images: [
         {
-          url: "https://arifwahyu.id/images/profile-about.webp",
+          url: data.banner || "https://arifwahyu.id/images/profile-about.webp",
           width: 1200,
           height: 630,
-          alt: "Profile of Arif Wahyu Prasetyo",
+          alt: `${data.name} Banner`,
         },
       ],
       type: "website",
@@ -46,9 +52,12 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: data.name,
+      title: `${data.name} | Arif Wahyu Prasetyo`,
       description: data.description,
-      images: data.banner,
+      images: data.banner || "https://arifwahyu.id/images/profile-about.webp",
+    },
+    alternates: {
+      canonical: `https://arifwahyu.id/projects/${data.slug}`,
     },
   };
 }
