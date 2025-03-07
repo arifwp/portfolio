@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description:
     "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-about.webp",
-    shortcut: "https://arifwahyu.id/images/profile-about.webp",
-    apple: "https://arifwahyu.id/images/profile-about.webp",
+    icon: "https://arifwahyu.id/images/profile-me.png",
+    shortcut: "https://arifwahyu.id/images/profile-me.png",
+    apple: "https://arifwahyu.id/images/profile-me.png",
   },
   keywords: [
     "Pengalaman Arif Wahyu Prasetyo",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-about.webp",
+        url: "https://arifwahyu.id/images/profile-me.png",
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "Experiences | Arif Wahyu Prasetyo",
     description:
       "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
-    images: "https://arifwahyu.id/images/profile-about.webp",
+    images: "https://arifwahyu.id/images/profile-me.png",
   },
 };
 

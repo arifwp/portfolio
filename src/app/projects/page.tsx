@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   description:
     "Explore a collection of innovative Fullstack and mobile projects by Arif Wahyu Prasetyo. Featuring web apps, mobile solutions, and software tools built with Next.js, React, TypeScript, Node.js, Laravel, and modern technologies.",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-about.webp",
-    shortcut: "https://arifwahyu.id/images/profile-about.webp",
-    apple: "https://arifwahyu.id/images/profile-about.webp",
+    icon: "https://arifwahyu.id/images/profile-me.png",
+    shortcut: "https://arifwahyu.id/images/profile-me.png",
+    apple: "https://arifwahyu.id/images/profile-me.png",
   },
   keywords: [
     "Projects Arif",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Explore a collection of innovative Fullstack and mobile projects by Arif Wahyu Prasetyo. Featuring web apps, mobile solutions, and software tools built with Next.js, React, TypeScript, Node.js, Laravel, and modern technologies.",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-about.webp",
+        url: "https://arifwahyu.id/images/profile-me.png",
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Projects | Arif Wahyu Prasetyo",
     description:
       "Explore a collection of innovative Fullstack and mobile projects by Arif Wahyu Prasetyo. Featuring web apps, mobile solutions, and software tools built with Next.js, React, TypeScript, Node.js, Laravel, and modern technologies.",
-    images: "https://arifwahyu.id/images/profile-about.webp",
+    images: "https://arifwahyu.id/images/profile-me.png",
   },
 };
 

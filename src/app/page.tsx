@@ -10,17 +10,20 @@ export const metadata: Metadata = {
   description:
     "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-about.webp",
-    shortcut: "https://arifwahyu.id/images/profile-about.webp",
-    apple: "https://arifwahyu.id/images/profile-about.webp",
+    icon: "https://arifwahyu.id/images/profile-me.png",
+    shortcut: "https://arifwahyu.id/images/profile-me.png",
+    apple: "https://arifwahyu.id/images/profile-me.png",
   },
   keywords: [
     "Arif",
+    "Arif Ketaon",
+    "Arif Boyolali",
     "Arif Wahyu",
     "Arif Wahyu Prasetyo",
-    "Email Arif",
     "Website Arif Wahyu Prasetyo",
     "Website Arif",
+    "Linkedin Arif Wahyu Prasetyo",
+    "Profil Arif",
     "Junior Fullstack Developer",
     "Fullstack Developer",
   ],
@@ -30,7 +33,7 @@ export const metadata: Metadata = {
       "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-about.webp",
+        url: "https://arifwahyu.id/images/profile-me.png",
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",
@@ -44,7 +47,7 @@ export const metadata: Metadata = {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
       "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
-    images: "https://arifwahyu.id/images/profile-about.webp",
+    images: "https://arifwahyu.id/images/profile-me.png",
   },
 };
 

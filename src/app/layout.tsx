@@ -5,6 +5,25 @@ import { Analytics } from "@vercel/analytics/next";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "https://arifwahyu.id/images/profile-me.png",
+    shortcut: "https://arifwahyu.id/images/profile-me.png",
+    apple: "https://arifwahyu.id/images/profile-me.png",
+  },
+  openGraph: {
+    images: [
+      {
+        url: "https://arifwahyu.id/images/profile-me.png",
+        width: 1200,
+        height: 630,
+        alt: "Profile of Arif Wahyu Prasetyo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: "https://arifwahyu.id/images/profile-me.png",
+  },
   verification: {
     google: "google",
     yandex: "yandex",
