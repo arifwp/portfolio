@@ -62,6 +62,8 @@ export interface ExperienceInterface {
   companyLogo: string;
   title: string;
   date: string;
+  startDate?: string;
+  endDate?: string;
   location: string;
   relatedProjects: number[];
 }
@@ -72,6 +74,7 @@ export const experienceData: ExperienceInterface[] = [
     companyLogo: "/images/logo-bwi.webp",
     title: "Android & Junior Fullstack Developer at Business Watch Indonesia",
     date: "June 2023 - Present",
+    startDate: "2023-06-01",
     location: "Boyolali, Central Java, Indonesia",
     relatedProjects: [0, 2],
   },
@@ -80,6 +83,8 @@ export const experienceData: ExperienceInterface[] = [
     companyLogo: "/images/logo-qatros.webp",
     title: "Android Engineer Internship at Qatros",
     date: "August 2022 - December 2022",
+    startDate: "2022-08-01",
+    endDate: "2022-12-29",
     location: "Sleman, Special Region of Yogyakarta, Indonesia",
     relatedProjects: [3],
   },
@@ -88,8 +93,9 @@ export const experienceData: ExperienceInterface[] = [
     companyLogo: "/images/logo-bangkit.webp",
     title: "Android Developer Internship at Bangkit Academy",
     date: "February 2022 - July 2022",
+    startDate: "2022-02-01",
+    endDate: "2022-07-29",
     location: "Remote, Indonesia",
-
     relatedProjects: [4],
   },
 ];
