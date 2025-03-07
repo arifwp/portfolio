@@ -232,7 +232,7 @@ export const projectData: ProjectInterface[] = [
     linkToPage: "",
     linkToProject: {
       id: 2,
-      name: "https://play.google.com/store/apps/details?id=com.kubu.id&pcampaignid=web_share",
+      name: "https://kubu.id",
     },
     title:
       "Kubu.id – The Ultimate Online Community for Informal & Casual Workers",
