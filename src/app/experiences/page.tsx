@@ -1,19 +1,19 @@
 import { Metadata } from "next";
+import Script from "next/script";
+import { Person, WithContext } from "schema-dts";
 import ExperienceCard from "../components/ExperienceCard";
 import SkillCircle from "../components/SkillCircle";
 import Title from "../components/Title";
 import { experienceData, skillData } from "../constants/experience";
-import Script from "next/script";
-import { Person, WithContext } from "schema-dts";
 
 export const metadata: Metadata = {
   title: "Experiences | Arif Wahyu Prasetyo",
   description:
     "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-me.png",
-    shortcut: "https://arifwahyu.id/images/profile-me.png",
-    apple: "https://arifwahyu.id/images/profile-me.png",
+    icon: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+    shortcut: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+    apple: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
   keywords: [
     "Pengalaman Arif Wahyu Prasetyo",
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
       "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-me.png",
+        url: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",
       },
     ],
     type: "website",
-    url: "https://arifwahyu.id/experiences",
+    url: `${process.env.NEXT_PUBLIC_FE_URL}/experiences`,
   },
   twitter: {
     card: "summary_large_image",
     title: "Experiences | Arif Wahyu Prasetyo",
     description:
       "Explore the professional journey of Arif Wahyu Prasetyo, a Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel. Discover hands-on experience, technical skills, and key contributions to various projects.",
-    images: "https://arifwahyu.id/images/profile-me.png",
+    images: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
 };
 
@@ -54,8 +54,8 @@ export default function ExperiencesPage() {
     "@type": "Person",
     name: "Skills & Experiences | Arif Wahyu Prasetyo",
     jobTitle: "Junior Fullstack Developer",
-    url: "https://arifwahyu.id/experiences",
-    image: "https://arifwahyu.id/images/profile-me.png",
+    url: `${process.env.NEXT_PUBLIC_FE_URL}/experiences`,
+    image: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
     description:
       "Experienced Fullstack Developer specializing in React.js, Next.js, TypeScript, Node.js, and Laravel.",
     knowsAbout: skillData.map((skill) => skill.name),

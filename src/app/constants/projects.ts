@@ -21,6 +21,119 @@ export interface ProjectInterface {
 export const projectData: ProjectInterface[] = [
   {
     id: 0,
+    banner: "/images/banner-playfields.webp",
+    name: "Playfields",
+    date: "March 2025 - Present",
+    keywords: [
+      "Playfields",
+      "Booking lapangan online",
+      "Sistem manajemen lapangan",
+      "Jadwal futsal online",
+      "Dashboard pemilik lapangan",
+      "Booking futsal & mini soccer",
+      "Platform Playfields Indonesia",
+      "Digitalisasi pengelolaan lapangan",
+      "Website booking futsal",
+      "Sewa lapangan online",
+      "Admin lapangan Playfields",
+      "Lapangan mini soccer online",
+      "Playfields web app",
+      "Playfields untuk UMKM olahraga",
+      "Fitur booking realtime",
+      "Sistem pembayaran booking",
+      "Notifikasi booking lapangan",
+      "Playfields Arif Wahyu Prasetyo",
+      "Sistem kasir lapangan futsal",
+    ],
+    linkToPage: "",
+    linkToProject: {
+      id: 1,
+      name: "https://playfields.id",
+    },
+    title:
+      "Playfields - Simplifying Field Booking & Management for Futsal & Mini Soccer",
+    description:
+      "Playfields is an innovative SaaS platform that empowers field owners to digitize and manage their futsal or mini soccer businesses with ease. From seamless booking systems, real-time schedule management, to integrated payment features. Playfields helps local sports venues operate more efficiently. The platform also provides admin dashboards, session-based pricing, and auto expire unpaid bookings to ensure optimal field utilization and user experience. Designed for scalability and ease of use, Playfields is redefining how field operations are managed.",
+    slug: "playfields",
+    task: [
+      {
+        id: 1,
+        name: "Reduced booking-related issues by 40% through improved data handling and auto-expire mechanisms",
+      },
+      {
+        id: 2,
+        name: "Developed frontend features using Next.js, Tailwind CSS, and Zustand for state management, ensuring responsive and dynamic UI",
+      },
+      {
+        id: 3,
+        name: "Implemented Supabase as backend service with real-time updates, authentication, and cloud storage integration",
+      },
+      {
+        id: 4,
+        name: "Built dynamic pricing and schedule management based on day-type and session rules with full calendar visualization",
+      },
+      {
+        id: 5,
+        name: "Integrated Xendit for payment gateway, handling booking expiration logic and webhook-based payment status update",
+      },
+      {
+        id: 6,
+        name: "Enabled multi-role user access (owner/staff) and invitation-based collaboration to support flexible team management",
+      },
+      {
+        id: 7,
+        name: "Developed reusable custom hooks and modular components to ensure scalability and maintainability of the codebase",
+      },
+    ],
+    techStack: [
+      {
+        id: 1,
+        name: "Next.js",
+      },
+      {
+        id: 2,
+        name: "React.js",
+      },
+      {
+        id: 3,
+        name: "Tailwind CSS",
+      },
+      {
+        id: 4,
+        name: "Supabase",
+      },
+      {
+        id: 5,
+        name: "Zustand",
+      },
+      {
+        id: 6,
+        name: "TanStack Query",
+      },
+      {
+        id: 7,
+        name: "Payment Gateway",
+      },
+      {
+        id: 8,
+        name: "Typescript",
+      },
+      {
+        id: 9,
+        name: "Amplitude",
+      },
+      {
+        id: 10,
+        name: "Vercel",
+      },
+      {
+        id: 11,
+        name: "Git",
+      },
+    ],
+  },
+  {
+    id: 1,
     banner: "/images/banner-bisnislink.webp",
     name: "BisnisLink",
     date: "September 2024 - Present",
@@ -114,11 +227,14 @@ export const projectData: ProjectInterface[] = [
         id: 7,
         name: "Git",
       },
+      {
+        id: 8,
+        name: "Typescript",
+      },
     ],
   },
-
   {
-    id: 1,
+    id: 2,
     banner: "/images/banner-ketaonfair.webp",
     name: "Ketaon Fair",
     date: "June 2023 - Present",
@@ -192,7 +308,7 @@ export const projectData: ProjectInterface[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     banner: "/images/banner-kubuid.webp",
     name: "Kubu.id",
     date: "June 2023 - Present",
@@ -317,7 +433,7 @@ export const projectData: ProjectInterface[] = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     banner: "/images/banner-samakaki.webp",
     name: "SAMAKAKI",
     date: "September 2022 - December 2022",
@@ -429,7 +545,7 @@ export const projectData: ProjectInterface[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     banner: undefined,
     name: "Price App",
     date: "April 2022 - July 2022",

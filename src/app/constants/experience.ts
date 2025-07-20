@@ -55,6 +55,16 @@ export const skillData: SkillInterface[] = [
     name: "Kotlin",
     logo: "/images/logo-kotlin.webp",
   },
+  {
+    id: 11,
+    name: "Supabase",
+    logo: "/images/logo-supabase.webp",
+  },
+  {
+    id: 12,
+    name: "Vercel",
+    logo: "/images/logo-vercel.webp",
+  },
 ];
 
 export interface ExperienceInterface {
@@ -70,13 +80,23 @@ export interface ExperienceInterface {
 
 export const experienceData: ExperienceInterface[] = [
   {
+    id: 0,
+    companyLogo: "/images/logo-playfields.webp",
+    title: "Junior Fullstack Developer at Playfields",
+    date: "March 2025 - Present",
+    startDate: "2025-05-10",
+    location: "Remote, Indonesia",
+    relatedProjects: [0],
+  },
+  {
     id: 1,
     companyLogo: "/images/logo-bwi.webp",
     title: "Android & Junior Fullstack Developer at Business Watch Indonesia",
-    date: "June 2023 - Present",
+    date: "June 2023 - March 2025",
     startDate: "2023-06-01",
+    endDate: "2025-05-08",
     location: "Boyolali, Central Java, Indonesia",
-    relatedProjects: [0, 2],
+    relatedProjects: [1, 3],
   },
   {
     id: 2,
@@ -86,7 +106,7 @@ export const experienceData: ExperienceInterface[] = [
     startDate: "2022-08-01",
     endDate: "2022-12-29",
     location: "Sleman, Special Region of Yogyakarta, Indonesia",
-    relatedProjects: [3],
+    relatedProjects: [4],
   },
   {
     id: 3,
@@ -96,6 +116,6 @@ export const experienceData: ExperienceInterface[] = [
     startDate: "2022-02-01",
     endDate: "2022-07-29",
     location: "Remote, Indonesia",
-    relatedProjects: [4],
+    relatedProjects: [5],
   },
 ];

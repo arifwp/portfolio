@@ -42,32 +42,32 @@ export async function generateMetadata({
       "Fullstack Developer",
     ],
     icons: {
-      icon: "https://arifwahyu.id/images/profile-me.png",
-      shortcut: "https://arifwahyu.id/images/profile-me.png",
-      apple: "https://arifwahyu.id/images/profile-me.png",
+      icon: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+      shortcut: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+      apple: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
     },
     openGraph: {
       title: `${data.name} | Arif Wahyu Prasetyo`,
       description: data.description,
       images: [
         {
-          url: "https://arifwahyu.id/images/profile-me.png",
+          url: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
           width: 1200,
           height: 630,
           alt: `Profile of Arif Wahyu Prasetyo`,
         },
       ],
       type: "website",
-      url: `https://arifwahyu.id/projects/${data.slug}`,
+      url: `${process.env.NEXT_PUBLIC_FE_URL}/projects/${data.slug}`,
     },
     twitter: {
       card: "summary_large_image",
       title: `${data.name} | Arif Wahyu Prasetyo`,
       description: data.description,
-      images: "https://arifwahyu.id/images/profile-me.png",
+      images: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
     },
     alternates: {
-      canonical: `https://arifwahyu.id/projects/${data.slug}`,
+      canonical: `${process.env.NEXT_PUBLIC_FE_URL}/projects/${data.slug}`,
     },
   };
 }
@@ -94,7 +94,7 @@ export default async function ProjectDetailPage({
     headline: project.title,
     description: project.description,
     url: `https://arifwahyu.id/projects/${project.slug}`,
-    image: "https://arifwahyu.id/images/profile-me.png",
+    image: "https://arifwahyu.id/images/profile-about.png",
     creator: {
       "@type": "Person",
       name: "Arif Wahyu Prasetyo",
@@ -119,13 +119,15 @@ export default async function ProjectDetailPage({
         <Title title={data.name} />
 
         {data.banner && (
-          <Image
-            className="w-full mt-6 rounded-neo"
-            src={data.banner}
-            alt={data.name}
-            width={500}
-            height={500}
-          />
+          <div className="relative w-full mt-6 aspect-video object-contain overflow-hidden rounded-neo">
+            <Image
+              className="w-full"
+              src={data.banner}
+              alt={data.name}
+              fill
+              priority
+            />
+          </div>
         )}
 
         <div className="w-full gap-1 mt-4 flex flex-col">

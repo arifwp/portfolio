@@ -26,7 +26,7 @@ export default {
         hardYellow: "#FEDB58",
       },
       maxWidth: {
-        "calc-24": "calc(100vw - 24px)", // Add your custom value here
+        "calc-24": "calc(100vw - 24px)",
       },
     },
   },

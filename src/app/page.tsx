@@ -1,20 +1,20 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import profileHeader from "../../public/images/profile-about.webp";
-import TimelineCard from "./components/TimelineCard";
-import { timelineData } from "./constants/timeline";
 import Script from "next/script";
 import { Person, WithContext } from "schema-dts";
+import profileHeader from "../../public/images/profile-about.png";
+import TimelineCard from "./components/TimelineCard";
+import { timelineData } from "./constants/timeline";
 
 export const metadata: Metadata = {
   title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
   description:
-    "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
+    "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
   icons: {
-    icon: "https://arifwahyu.id/images/profile-me.png",
-    shortcut: "https://arifwahyu.id/images/profile-me.png",
-    apple: "https://arifwahyu.id/images/profile-me.png",
+    icon: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+    shortcut: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+    apple: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
   keywords: [
     "Arif",
@@ -32,24 +32,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
-      "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
+      "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-me.png",
+        url: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",
       },
     ],
     type: "website",
-    url: "https://arifwahyu.id",
+    url: `${process.env.NEXT_PUBLIC_FE_URL}`,
   },
   twitter: {
     card: "summary_large_image",
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
-      "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
-    images: "https://arifwahyu.id/images/profile-me.png",
+      "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
+    images: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
 };
 
@@ -60,14 +60,14 @@ export default function AboutPage() {
     name: "Arif Wahyu Prasetyo",
     birthDate: "2001-06-23",
     birthPlace: "Boyolali",
-    url: "https://arifwahyu.id",
-    image: "https://arifwahyu.id/images/profile-me.png",
+    url: `${process.env.NEXT_PUBLIC_FE_URL}`,
+    image: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
     jobTitle: "Junior Fullstack Developer",
     alternateName: "Arif",
     email: "arif.wpras@gmail.com",
     gender: "Male",
     description:
-      "Versatile developer with 2 years of combined experience in Android app development and Fullstack web projects.",
+      "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
     alumniOf: "Amikom Yogyakarta University",
     nationality: "Indonesia",
     sameAs: [
@@ -85,43 +85,45 @@ export default function AboutPage() {
       />
 
       <div className="w-full h-[100%] min-h-[100dvh] pt-0 pb-12 px-12 bg-softOrange flex flex-col gap-6">
-        <Image
-          className="mx-auto aspect-square object-cover object-center"
-          src={profileHeader}
-          alt="foto arif wahyu prasetyo"
-          width={400}
-          height={400}
-        />
+        <div className="w-60 h-auto aspect-square relative object-center mx-auto">
+          <Image
+            className="mx-auto aspect-square object-cover object-center"
+            src={profileHeader}
+            alt="foto arif wahyu prasetyo"
+            fill
+            priority
+          />
+        </div>
 
         <div className="flex flex-col gap-4">
           <div className="flex flex-row gap-3">
             <h1 className="my-auto text-3xl font-bold md:text-5xl">{`Hello I'm`}</h1>
             <div className="p-1 rounded-none border-2 border-black bg-hardYellow">
-              <h1 className="text-3xl font-bold md:text-5xl">Arif </h1>
+              <h1 className="text-3xl font-bold md:text-5xl">Arif</h1>
             </div>
           </div>
 
           <p className="text-md">
-            Versatile developer with 2 years of combined experience in Android
-            app development and Fullstack web projects. Successfully developed
-            and deployed Android applications with 14,000+ downloads on Google
-            Play Store, showcasing strong problem-solving and optimization
-            skills. Proficient in modern technologies, including React.js,
-            Next.js, TypeScript, Chakra UI, Tailwind CSS, Laravel, and Node.js.
-            Dedicated to delivering high-quality, scalable solutions and
-            continuously advancing expertise in modern development frameworks
-            and best practices.
+            Results-driven Full Stack Developer with 2+ years of experience
+            building scalable web applications using React, TypeScript,
+            JavaScript, Laravel, PHP, and modern CSS frameworks. Demonstrated
+            expertise in frontend development, backend architecture, RESTful
+            APIs, and database design. Successfully engineered and deployed
+            production applications serving 14,000+ active users with focus on
+            performance optimization and user experience. Proficient in version
+            control (Git) and collaborative development practices. Strong
+            problem-solving skills with proven ability to deliver high-quality
+            software solutions from concept through production deployment.
           </p>
 
-          <a
+          <Link
             href="mailto:arif.wpras@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full p-4 bg-hardYellow drop-shadow-neo font-medium text-center"
           >
-            <button className="w-full p-4 bg-hardYellow drop-shadow-neo font-medium">
-              {`Let's Work Together`}
-            </button>
-          </a>
+            {`Let's Work Together`}
+          </Link>
 
           <div className="w-full flex flex-row gap-4 flex-wrap">
             <Link

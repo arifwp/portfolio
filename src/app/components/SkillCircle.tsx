@@ -15,6 +15,7 @@ export default function SkillCircle({ data }: Props) {
             src={data.logo}
             alt={data.name}
             fill
+            sizes="48px"
           />
         </div>
       </div>

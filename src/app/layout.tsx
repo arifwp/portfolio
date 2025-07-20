@@ -1,19 +1,19 @@
+import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Metadata } from "next";
 import BottomNavigation from "./components/BottomNavigation";
 import "./styles/globals.css";
-import { Analytics } from "@vercel/analytics/next";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   icons: {
-    icon: "https://arifwahyu.id/images/profile-me.png",
-    shortcut: "https://arifwahyu.id/images/profile-me.png",
-    apple: "https://arifwahyu.id/images/profile-me.png",
+    icon: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+    shortcut: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
+    apple: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
   openGraph: {
     images: [
       {
-        url: "https://arifwahyu.id/images/profile-me.png",
+        url: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
         width: 1200,
         height: 630,
         alt: "Profile of Arif Wahyu Prasetyo",
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: "https://arifwahyu.id/images/profile-me.png",
+    images: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
   verification: {
     google: "google",
     yandex: "yandex",
     yahoo: "yahoo",
     other: {
-      me: ["arif.wpras@gmail.com", "https://arifwahyu.id"],
+      me: ["arif.wpras@gmail.com", `${process.env.NEXT_PUBLIC_FE_URL}`],
     },
   },
 };
