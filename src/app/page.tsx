@@ -10,7 +10,7 @@ import { timelineData } from "./constants/timeline";
 export const metadata: Metadata = {
   title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
   description:
-    "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
+    "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
   icons: {
     icon: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
     shortcut: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
-      "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
+      "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
     description:
-      "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
+      "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
     images: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
   },
 };
@@ -67,7 +67,7 @@ export default function AboutPage() {
     email: "arif.wpras@gmail.com",
     gender: "Male",
     description:
-      "Fullstack Developer with 2 years of experience building scalable, maintainable web applications, from responsive frontend interfaces to robust backend systems.",
+      "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
     alumniOf: "Amikom Yogyakarta University",
     nationality: "Indonesia",
     sameAs: [
@@ -104,16 +104,17 @@ export default function AboutPage() {
           </div>
 
           <p className="text-md">
-            Results-driven Full Stack Developer with 2+ years of experience
-            building scalable web applications using React, TypeScript,
-            JavaScript, Laravel, PHP, and modern CSS frameworks. Demonstrated
-            expertise in frontend development, backend architecture, RESTful
-            APIs, and database design. Successfully engineered and deployed
-            production applications serving 14,000+ active users with focus on
-            performance optimization and user experience. Proficient in version
-            control (Git) and collaborative development practices. Strong
-            problem-solving skills with proven ability to deliver high-quality
-            software solutions from concept through production deployment.
+            Results-driven Full Stack Developer with proven expertise in
+            building scalable SaaS platforms. Specialized in architecting
+            end-to-end solutions using modern tech stack (React.js, Next.js,
+            Laravel, Node.js, Typescript) with strong focus on performance
+            optimization, UX, and business impact. Demonstrated ability to
+            collaborate effectively with cross functional teams, translating
+            business requirements into robust technical solutions. Skilled in
+            implementing payment integrations, real-time databases, and CI/CD
+            pipelines while maintaining 99%+ uptime. Passionate about leveraging
+            cutting-edge technologies to drive user growth, revenue generation,
+            and operational efficiency.
           </p>
 
           <Link
