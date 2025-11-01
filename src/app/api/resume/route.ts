@@ -3,20 +3,20 @@ import fs from "fs";
 import path from "path";
 
 export async function GET() {
-  const pdfPath = path.resolve("public/resume-arif-wahyu-prasetyo.pdf"); // Pastikan path benar
+  const pdfPath = path.resolve("public/resume-arif-wahyu-prasetyo.pdf");
 
-  if (fs.existsSync(pdfPath)) {
-    const fileBuffer = fs.readFileSync(pdfPath);
-
-    const headers = new Headers();
-    headers.set("Content-Type", "application/pdf");
-    headers.set(
-      "Content-Disposition",
-      'attachment; filename="resume-arif-wahyu-prasetyo.pdf"'
-    );
-
-    return new NextResponse(fileBuffer, { headers });
+  if (!fs.existsSync(pdfPath)) {
+    return new NextResponse("File not found", { status: 404 });
   }
 
-  return new NextResponse("File not found", { status: 404 });
+  const fileBuffer = fs.readFileSync(pdfPath);
+  const uint8Array = new Uint8Array(fileBuffer); // konversi Buffer → Uint8Array
+
+  const headers = new Headers({
+    "Content-Type": "application/pdf",
+    "Content-Disposition":
+      'attachment; filename="resume-arif-wahyu-prasetyo.pdf"',
+  });
+
+  return new NextResponse(uint8Array, { headers });
 }
