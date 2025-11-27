@@ -82,7 +82,7 @@ export const experienceData: ExperienceInterface[] = [
   {
     id: 0,
     companyLogo: "/images/logo-playfields.webp",
-    title: "Junior Fullstack Developer at Playfields",
+    title: "Full Stack Developer at Playfields",
     date: "March 2025 - Present",
     startDate: "2025-05-10",
     location: "Remote, Indonesia",
@@ -91,7 +91,7 @@ export const experienceData: ExperienceInterface[] = [
   {
     id: 1,
     companyLogo: "/images/logo-bwi.webp",
-    title: "Android & Junior Fullstack Developer at Business Watch Indonesia",
+    title: "Full Stack Developer at Business Watch Indonesia",
     date: "June 2023 - March 2025",
     startDate: "2023-06-01",
     endDate: "2025-05-08",

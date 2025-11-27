@@ -8,7 +8,7 @@ import TimelineCard from "./components/TimelineCard";
 import { timelineData } from "./constants/timeline";
 
 export const metadata: Metadata = {
-  title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
+  title: "Arif Wahyu Prasetyo | Full Stack Developer",
   description:
     "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
   icons: {
@@ -18,19 +18,19 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Arif",
-    "Arif Ketaon",
-    "Arif Boyolali",
+    "Arif Full Stack Developer",
+    "Portfolio",
     "Arif Wahyu",
     "Arif Wahyu Prasetyo",
     "Website Arif Wahyu Prasetyo",
-    "Website Arif",
+    "Full Stack Engineer",
     "Linkedin Arif Wahyu Prasetyo",
-    "Profil Arif",
-    "Junior Fullstack Developer",
+    "Full Stack Developer",
     "Fullstack Developer",
+    "Fullstack Engineer",
   ],
   openGraph: {
-    title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
+    title: "Arif Wahyu Prasetyo | Full Stack Developer",
     description:
       "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arif Wahyu Prasetyo | Junior Fullstack Developer",
+    title: "Arif Wahyu Prasetyo | Full Stack Developer",
     description:
       "Full Stack Developer specializing in scalable SaaS platforms using React.js, Next.js, Laravel, and Node.js, with a strong focus on performance, UX, and business impact. Experienced in building production-grade apps, payment integrations, and real-time systems with 99%+ uptime.",
     images: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
@@ -62,7 +62,7 @@ export default function AboutPage() {
     birthPlace: "Boyolali",
     url: `${process.env.NEXT_PUBLIC_FE_URL}`,
     image: `${process.env.NEXT_PUBLIC_FE_URL}/images/profile-about.png`,
-    jobTitle: "Junior Fullstack Developer",
+    jobTitle: "Full Stack Developer",
     alternateName: "Arif",
     email: "arif.wpras@gmail.com",
     gender: "Male",

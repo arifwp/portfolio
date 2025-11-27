@@ -17,7 +17,7 @@ export const timelineData: TimelineInterface[] = [
     id: 1,
     title: "Working at Business Watch Indonesia",
     description:
-      "During my time as an Android & Junior Fullstack Developer, I had the chance to work on various projects where I was involved in both front-end and back-end development. I learning a lot about full-stack development and how the two sides come together. I also had the opportunity to maintain Android applications who had 14.000++ downloads on Play Store. Working in this role really helped me grow as a developer and understand the importance of clean code, efficient collaboration, and problem-solving.",
+      "During my time as an Full Stack Developer, I had the chance to work on various projects where I was involved in both front-end and back-end development. I learning a lot about full-stack development and how the two sides come together. I also had the opportunity to maintain Android applications who had 14.000++ downloads on Play Store. Working in this role really helped me grow as a developer and understand the importance of clean code, efficient collaboration, and problem-solving.",
     date: "June 2023 - March 2025",
   },
   {

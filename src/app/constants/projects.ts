@@ -347,7 +347,7 @@ export const projectData: ProjectInterface[] = [
     ],
     linkToPage: "",
     linkToProject: {
-      id: 2,
+      id: 1,
       name: "https://kubu.id",
     },
     title:
